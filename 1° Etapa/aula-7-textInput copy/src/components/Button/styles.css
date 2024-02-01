@@ -1,0 +1,22 @@
+.button{
+    width: 100%;
+    background: deepskyblue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: transform 100ms ease-in-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.button:hover{
+    background: rgb(0, 163, 218);
+    transform: scale(1.03);
+}
+
+.button:disabled{
+    background: #ccc;
+    cursor: not-allowed;
+}

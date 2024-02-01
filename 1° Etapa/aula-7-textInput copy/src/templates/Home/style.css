@@ -1,0 +1,29 @@
+.container {
+  min-height: 100vh;
+  background: #eee;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.button-container{
+  margin-top: 20px;
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.search-container{
+  margin-bottom: 20px;
+}
+
+.search-container h1{
+  margin-bottom: 20px;
+}
+
+.noPosts{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 40px;
+  color: #999;
+}
